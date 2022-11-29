@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>memoryGame</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="controls-button">
+        <p class="success"></p>
+        <span>Start Game</span>
+    </div>
+    <!--start info-container-->
+    <div class="info-container">
+        <div class="name">
+            hello:<span></span>
+        </div>
+
+        <div class="time">
+            <span class="h">0</span>
+            :
+            <span class="m">4</span>
+            :
+            <span class="s">59</span>
+
+
+        </div>
+        <div class="tries">
+            wrong tries : <span>0</span>
+        </div>
+    </div>   <!--end info-container-->
+ 
+   
+    <div class="memory-game-blocks"> <!--start memory blocks-->
+
+        <div class="game-block" data-technology="django">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="photo/django_small.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="django">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="photo/django_small.png" alt="">
+            </div>
+        </div>
+
+
+        <div class="game-block" data-technology="js">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="photo/photo_2022-01-01_20-54-01.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="js">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="photo/photo_2022-01-01_20-54-01.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="game-block" data-technology="html">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="photo/photo_2022-01-01_20-54-06.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="html">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="photo/photo_2022-01-01_20-54-06.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="next">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="photo/photo_2022-01-01_20-54-09.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="next">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="photo/photo_2022-01-01_20-54-09.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="php">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="photo/photo_2022-01-01_20-54-14.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="php">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="photo/photo_2022-01-01_20-54-14.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="cs50">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="photo/photo_2022-01-01_20-54-19.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="cs50">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="photo/photo_2022-01-01_20-54-19.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="botstrip">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="photo/photo_2022-01-01_21-16-45.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="botstrip">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="photo/photo_2022-01-01_21-16-45.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="game-block" data-technology="python">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="photo/images.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="python">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="photo/images.jpg" alt="">
+            </div>
+        </div>
+    </div> <!--end memory blocks-->
+
+<audio  id="success" src="audio/Success sound effect (copyright free).mp3" preload="auto"></audio>
+ <audio  id="faild" src="audio/faild sound.mp3" preload="auto"></audio> 
+ <audio  id="finish" src="audio/Crowd cheering sound effect.mp3" preload="auto"></audio> 
+
+
+    <script src="js/code.js" ></script>
+</body>
+
+</html>
